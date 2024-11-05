@@ -30,14 +30,15 @@ We achieved state-of-the-art affinity prediction on the PDBbind2020 dataset. The
 
 Differentiating interaction site and score on a protein as the ligand varies. (Highest(left picture) vs. Lowest(right picture) binding affinity predicted.)
 
-| L1000 targets                  |                                |
+| Highest binding affinity       | Lowest binding affinity        |
 |--------------------------------|--------------------------------|
+| [L1000 targets](https://predictioncenter.org/casp16/target.cgi?id=59&view=all)                  |                                |
 | ![showcase](images/L1000a.png) | ![showcase](images/L1000b.png) |
-| L2000 targets                  |                                |
+| [L2000 targets](https://predictioncenter.org/casp16/target.cgi?id=58&view=all)                  |                                |
 | ![showcase](images/L2000a.png) | ![showcase](images/L2000b.png) |
-| L3000 targets                  |                                |
+| [L3000 targets](https://predictioncenter.org/casp16/target.cgi?id=57&view=all)                  |                                |
 | ![showcase](images/L3000a.png) | ![showcase](images/L3000b.png) |
-| L4000 targets                  |                                |
+| [L4000 targets](https://predictioncenter.org/casp16/target.cgi?id=56&view=all)                  |                                |
 | ![showcase](images/L4000a.png) | ![showcase](images/L4000b.png) |
 
 ## Paper
