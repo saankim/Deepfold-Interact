@@ -16,7 +16,7 @@ Under review at the RECOMB 2025 conference.
 3. Implementing sophisticated scoring process to balance interacting and non-interacting residues' information.
 4. Achieving state-of-the-art affinity prediction on the PDBbind2020 dataset.
 
-![architecture overview](architecture.png)
+![architecture overview](images/architecture.png)
 
 ## Showcase
 
@@ -33,17 +33,11 @@ Differentiating interaction site and score on a protein as the ligand varies. (H
 | L1000 targets                  |                                |
 |--------------------------------|--------------------------------|
 | ![showcase](images/L1000a.png) | ![showcase](images/L1000b.png) |
-
 | L2000 targets                  |                                |
-|--------------------------------|--------------------------------|
 | ![showcase](images/L2000a.png) | ![showcase](images/L2000b.png) |
-
 | L3000 targets                  |                                |
-|--------------------------------|--------------------------------|
 | ![showcase](images/L3000a.png) | ![showcase](images/L3000b.png) |
-
 | L4000 targets                  |                                |
-|--------------------------------|--------------------------------|
 | ![showcase](images/L4000a.png) | ![showcase](images/L4000b.png) |
 
 ## Paper
