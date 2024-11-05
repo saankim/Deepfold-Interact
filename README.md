@@ -4,7 +4,7 @@ This repository is the official implementation of “DeepFold-Interact: Balancin
 
 ## Citation
 ```
-comming soon
+Under review at the RECOMB 2025 conference.
 ```
 
 ## Overview
@@ -17,6 +17,38 @@ comming soon
 4. Achieving state-of-the-art affinity prediction on the PDBbind2020 dataset.
 
 ![architecture overview](architecture.png)
+
+## Showcase
+
+### Binding Affinity Prediction on PDBbind2020 Dataset
+
+We achieved state-of-the-art affinity prediction on the PDBbind2020 dataset. The table below shows the performance of our model compared to other models.
+
+![affinity table](images/affinity_table.png)
+
+### Binding Site Prediction on [CASP16](https://predictioncenter.org/casp16/index.cgi) Targets
+
+Differentiating interaction site and score on a protein as the ligand varies. (Highest(left picture) vs. Lowest(right picture) binding affinity predicted.)
+
+| L1000 targets                  |                                |
+|--------------------------------|--------------------------------|
+| ![showcase](images/L1000a.png) | ![showcase](images/L1000b.png) |
+
+| L2000 targets                  |                                |
+|--------------------------------|--------------------------------|
+| ![showcase](images/L2000a.png) | ![showcase](images/L2000b.png) |
+
+| L3000 targets                  |                                |
+|--------------------------------|--------------------------------|
+| ![showcase](images/L3000a.png) | ![showcase](images/L3000b.png) |
+
+| L4000 targets                  |                                |
+|--------------------------------|--------------------------------|
+| ![showcase](images/L4000a.png) | ![showcase](images/L4000b.png) |
+
+## Paper
+
+Paper is under review at the [RECOMB 2025 conference](https://recomb.org/recomb2025/).
 
 ### Abstract
 
