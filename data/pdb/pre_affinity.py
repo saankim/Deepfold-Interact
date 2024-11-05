@@ -57,7 +57,7 @@ total_len_ligand = 0
 for pkl_file in pkl_files:
     with open(os.path.join(save_path, pkl_file), "rb") as f:
         data_chunk = pickle.load(f)
-        
+
         len_nodes = len(data_chunk["one_hot_nodes"])
         len_adjs = len(data_chunk["adjs"])
         len_targets = len(data_chunk["targets"])

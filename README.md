@@ -9,6 +9,17 @@ comming soon
 
 ## Overview
 
+### Main Contributions:
+
+1. Explicitly use ligand information to predict protein-ligand interaction sites.
+2. Employing cutting-edge neural network architectures, including [Large Language Models](https://github.com/agemagician/Ankh) and graph transformers in both [molecular](https://github.com/IBM/molformer) and [protin](https://openreview.net/forum?id=sJzfxRbEv6) channel.
+3. Implementing sophisticated scoring process to balance interacting and non-interacting residues' information.
+4. Achieving state-of-the-art affinity prediction on the PDBbind2020 dataset.
+
+![architecture overview](architecture.png)
+
+### Abstract
+
 Protein-ligand interactions are essential for drug discovery and biological understanding, yet explicit ligand information remains underexplored. This paper presents DeepInteract, a graph transformer-based model that predicts protein-ligand interaction sites using a novel regression framework. Leveraging neural network architectures, including Large Language Models and graph transformers, DeepInteract applies a specialized scoring system to address interaction imbalances, enabling nuanced predictions. Our model achieves state-of-the-art affinity prediction on the PDBbind2020 dataset and performs well on binding site predictions,including CASP16 targets. By explicitly integrating ligand data,DeepInteract offers precise, adaptable insights with potential drug discovery and structural biology applications.
 
 ### Authors
